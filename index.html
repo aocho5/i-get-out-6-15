@@ -1,25 +1,136 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  
   <head>
     <!-- your metadata goes here in the "head" -->
     <title>Your Page Title</title>
-    <meta name="author" content="Your Name">
-    <meta name="description" content="What's this page about?">
+    <meta name="author" content="Anahi Ochoa">
+    <meta name="description" content="net.art?">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+      /* your CSS code goes here in the "style" */
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      color: #111111;
+    }
+  
+  @keyframes fadeIn {
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 
+#main-title {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  /* border: 1px dashed; */
+
+  font-weight: 700;
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+  color: black;
+
+  transform: translateY(7px);
+  opacity: 0;
+
+  animation: fadeIn 4s forwards 0.3s;
+}
+
+@media (max-width: 400px) {
+  #main-title {
+    margin-top: 100px;
+  }
+}
+
+      a {
+        color: #b94bac;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav > a {
+        text-decoration: none;
+        text-align: center;
+        width: 150px;
+        margin: 8px;
+        border: 1px solid #b94bac;
+        border-radius: 5px;
+        padding: 2px 12px;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+      nav > a:hover {
+        background: #b94bac;
+        color: #fff;
+      }
+     
+     b {
+        color: #D3D3D3;
+      }
+     
+     nav > b {
+        text-decoration: none;
+        text-align: center;
+        width: 150px auto;
+        margin: 8px;
+        border: 2px solid #D3D3D3;
+        border-radius: 5px;
+        padding: 1px 10px;
+      }
+     
+      b:hover {
+        text-decoration: none;
+      }
+      nav > b:hover {
+        background: #b94bac;
+        color: #fff;
+      }
+     
+      .wrap {
+        max-width: 650px;
+        margin: auto;
+      }
+    </style>
   </head>
   <body>
     <!-- you page's content goes here in the body -->
-    <h1>Welcome to My Page!</h1>
-
+<nav>
+    <p id="main-title"> I get out 6:15</p>
+   
     <p>
-      Welcome to my page! Take a look at my recent projects and interests below.
+      Save Energy
     </p>
-
-    <nav>
-      <a href="https://en.wikipedia.org/wiki/World_Wide_Web">working on this</a>
-      <a href="https://en.wikipedia.org/wiki/Internet">really into this</a>
+    
+    <a> 
+      Make dinner fast
+    </a>
+  
+    <p>
+      Recharge becuase
+    </p>
+    <a>
+      Finishing your day at 6:15
+    </a>
+    
+    <p>
+      means a compact evening
+    </p>
+      <a>of being busy with rest</a>
     </nav>
-
+    <nav>
+      <b>---------------------------------------------------------------------------- </b>
+    </nav>
+    <footer>
+      
+    </footer>
   </body>
 </html>
