@@ -13,37 +13,38 @@
       font-family: Helvetica, Arial, sans-serif;
       line-height: 1.5;
       color: #111111;
+      background-color: #e8dff5;
     }
   
-  @keyframes fadeIn {
-    100% {
-      transform: translateY(0);
-      opacity: 1;
+    @keyframes fadeIn {
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
     }
-  }
 
-#main-title {
-  margin-top: 60px;
-  margin-bottom: 10px;
-  /* border: 1px dashed; */
+    #main-title {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      /* border: 1px dashed; */
 
-  font-weight: 700;
-  font-size: 40px;
-  font-style: italic;
-  text-align: center;
-  color: black;
+      font-weight: 700;
+      font-size: 40px;
+      font-style: italic;
+      text-align: center;
+      color: black;
 
-  transform: translateY(7px);
-  opacity: 0;
+      transform: translateY(7px);
+      opacity: 0;
 
-  animation: fadeIn 4s forwards 0.3s;
-}
+      animation: fadeIn 5s forwards 0.3s;
+    }
 
-@media (max-width: 400px) {
-  #main-title {
-    margin-top: 100px;
-  }
-}
+    @media (max-width: 400px) {
+      #main-title {
+        margin-top: 80px;
+      }
+    }
 
       a {
         color: #b94bac;
@@ -69,19 +70,18 @@
         text-decoration: none;
       }
       nav > a:hover {
-        background: #b94bac;
+        background: #D8B4E2;
         color: #fff;
       }
      
      b {
         color: #D3D3D3;
-      }
-     
+     }
      nav > b {
         text-decoration: none;
         text-align: center;
         width: 150px auto;
-        margin: 8px;
+        margin: 7px;
         border: 2px solid #D3D3D3;
         border-radius: 5px;
         padding: 1px 10px;
@@ -91,7 +91,7 @@
         text-decoration: none;
       }
       nav > b:hover {
-        background: #b94bac;
+        background: #F8C8DC;
         color: #fff;
       }
      
@@ -99,6 +99,17 @@
         max-width: 650px;
         margin: auto;
       }
+     .dog-meme {
+      display: block;
+      width: 140px;
+      max-width: 80%;
+      margin: 20px auto;
+    }
+    .lordfarquad {
+      display: block;
+      margin: 200px auto;
+    }
+     
     </style>
   </head>
   <body>
@@ -127,8 +138,14 @@
       <a>of being busy with rest</a>
     </nav>
     <nav>
-      <b>---------------------------------------------------------------------------- </b>
+       <b>---------------------------------------------------------------------------- </b>
+      <p>scroll up for a SURPRISE!</p>
     </nav>
+    <img src="dog-meme.jpeg" alt="Funny dog meme" class="dog-meme">
+    <img src="lordFarquad.jpeg" alt="lordfarquad" class="lordfarquad">
+    <img src="mark.jpeg" alt="mark" class="mark">
+    <img src="shrek-smirking.jpeg" alt="shrek-smirking" class="shrek-smirking">
+    <img src="shrek.jpeg" alt="shrek" class="shrek">
     <footer>
       
     </footer>
